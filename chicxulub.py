@@ -18,3 +18,4 @@ probability_bacteria_landed_on_mars = 0.000001
 bacteria_that_landed_on_mars = bacteria_ejected_to_space_alive * probability_bacteria_landed_on_mars
 
 print(f"Estimated # of bacteria that landed on Mars from the Chicxulub impact: {bacteria_that_landed_on_mars:.2f}")
+# Estimated # of bacteria that landed on Mars from the Chicxulub impact: 1436755040.24
