@@ -19,9 +19,7 @@ ejecta_volume = asteroid_volume * ejecta_ratio
 space_volume = ejecta_volume * space_ratio # volume of ejecta that reached space
 bacteria_ejected_to_space = space_volume * bacteria_per_m3
 bacteria_ejected_to_space_alive = bacteria_ejected_to_space * bacteria_that_survived_ejection_ratio * bacteria_that_can_survive_in_space_ratio
-bacteria_that_landed_on_a_habitable_planet_or_moon = bacteria_ejected_to_space_alive * probability_bacteria_landed_on_a_habitable_planet_or_moon
+bacteria_that_landed_on_a_habitable_planet_or_moon = bacteria_ejected_to_space_alive * bacteria_that_survived_space_journey_ratio * probability_bacteria_landed_on_a_habitable_planet_or_moon
 
 print(f"Estimated # of bacteria that landed alive on a habitable planet or moon from the Chicxulub impact: {bacteria_that_landed_on_a_habitable_planet_or_moon:.2f}")
-
-# Result
-# Estimated # of bacteria that landed alive on a habitable planet or moon from the Chicxulub impact: 1436755040.24
+# result: Estimated # of bacteria that landed alive on a habitable planet or moon from the Chicxulub impact: 143675504.02
