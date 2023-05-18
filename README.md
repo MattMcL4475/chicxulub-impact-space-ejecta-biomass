@@ -8,3 +8,6 @@ P(live biomass from Chicxulub impact landed on habitable planet or moon) = ?
 [^1]: https://www.nature.com/articles/s43017-022-00283-y
 [^2]: https://www.frontiersin.org/articles/10.3389/fmicb.2020.02050/full
 [^3]: https://www.cell.com/current-biology/fulltext/S0960-9822%2808%2900805-1
+
+![image](https://github.com/MattMcL4475/chicxulub-impact-space-ejecta-biomass/assets/23408335/ce3c52e9-8ee5-46ec-bc2d-e9465cba9141)
+
