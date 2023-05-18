@@ -14,8 +14,8 @@ bacteria_ejected_to_space_in_trillions = bacteria_ejected_to_space / 1e12
 bacteria_that_survived_ejection_ratio = .1
 bacteria_that_can_survive_in_space_ratio = .00001 # d. radiodurans, t. gammatolerans, b. subtilis, e. coli,  chroococcidiopsis (tardigrades omitted!)
 bacteria_ejected_to_space_alive = bacteria_ejected_to_space * bacteria_that_survived_ejection_ratio * bacteria_that_can_survive_in_space_ratio
-probability_bacteria_landed_on_mars = 0.000001
-bacteria_that_landed_on_mars = bacteria_ejected_to_space_alive * probability_bacteria_landed_on_mars
+bacteria_that_survived_space_journey_ratio = 0.1
+probability_bacteria_landed_on_a_habitable_planet_or_moon = 0.000001
+bacteria_that_landed_on_a_habitable_planet_or_moon = bacteria_ejected_to_space_alive * probability_bacteria_landed_on_a_habitable_planet_or_moon
 
-print(f"Estimated # of bacteria that landed on Mars from the Chicxulub impact: {bacteria_that_landed_on_mars:.2f}")
-# Estimated # of bacteria that landed on Mars from the Chicxulub impact: 1436755040.24
+print(f"Estimated # of bacteria that landed alive on a habitable planet or moon from the Chicxulub impact: {bacteria_that_landed_on_a_habitable_planet_or_moon:.2f}")
