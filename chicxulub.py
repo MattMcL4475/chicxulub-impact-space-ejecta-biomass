@@ -1,5 +1,5 @@
-// Copyright (c) Matthew H. McLoughlin.
-// Licensed under the MIT License.
+# Copyright (c) Matthew H. McLoughlin.
+# Licensed under the MIT License.
 
 import math
 
