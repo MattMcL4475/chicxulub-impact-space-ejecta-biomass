@@ -1,3 +1,6 @@
+// Copyright (c) Matthew H. McLoughlin.
+// Licensed under the MIT License.
+
 import math
 
 asteroid_diameter = 14 # km
